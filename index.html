@@ -18,21 +18,37 @@
         }
         .container
         {
-            width: 200px;
+            width: 230px;
             height: 190px;
+            padding: 15px;
             background-color: white;
             display: flex;
             border-radius: 10px;
+            text-align: center;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            font-size: 1.4rem;
+        }
+        .container button
+        {
+            width: 80%;
+            padding: 5px;
+            outline: none;
+            transition: all ease-in .2s;
+        }
+        .container button:hover
+        {
+            background-image: linear-gradient(72deg, rgb(112, 104, 104), rgb(96, 88, 88), rgb(57, 55, 55));
+            color: white;
+            font-size: .9rem;
         }
     </style>
 </head>
 <body> 
 
     <div class="container">
-        <p>Color Change</p>
+        <p>Color Change | <strong>Click</strong> Below to Change the Color</p>
         <button id="changeColor">Change Color</button>
     </div>
     
