@@ -24,7 +24,7 @@
             padding: 15px;
             background-color: white;
             display: flex;
-            border-radius: 10px;
+            border-radius: 20px;
             text-align: center;
             flex-direction: column;
             justify-content: center;
@@ -34,22 +34,24 @@
         .container button
         {
             width: 80%;
-            padding: 5px;
+            padding: 10px;
             outline: none;
+            border-radius: 10px;
+            font-size: .9rem;
             transition: all ease-in .2s;
         }
         .container button:hover
         {
-            background-image: linear-gradient(72deg, rgb(112, 104, 104), rgb(96, 88, 88), rgb(57, 55, 55));
+            background-image: linear-gradient(72deg, rgb(151, 143, 143), rgb(59, 56, 56), rgb(32, 30, 30));
             color: white;
-            font-size: .9rem;
+            font-size: 1rem;
         }
     </style>
 </head>
 <body> 
 
     <div class="container">
-        <p>Color Change | <strong>Click</strong> Below to Change the Color</p>
+        <p><strong>Click</strong> Below to Change the Color</p>
         <button id="changeColor">Change Color</button>
     </div>
     
